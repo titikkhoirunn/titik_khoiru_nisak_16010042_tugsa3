@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#3E00574B</color>
+    <color name="colorAccent">#90AA677D</color>
+    <color name="color_jk">#65858300</color>
+    <color name="color_hobi">#54FF0059</color>
+    <color name="color_ttl">#4D002EA2</color>
+    <color name="color_email">#8B853E00</color>
+    <color name="color_telepon">#83470057</color>
+    <color name="color_alamat">#8A446101</color>
+    <color name="color_pelajar">#8B027543</color>
+</resources>

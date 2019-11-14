@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_pelajar"
+    tools:context=".penjumlahan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENJUMLAHAN"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/ed_nilai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKAN NILAI"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/user_name"/>
+
+    <EditText
+        android:id="@+id/ed_nilai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="MASUKAN NILAI"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/pass_word"/>
+
+    <Button
+        android:id="@+id/bt_hitung"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="  HITUNG  "
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn_ikuti"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIHAT YUK HASILNYA!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
